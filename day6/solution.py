@@ -45,7 +45,6 @@ while 0 <= guard_pos[0] < bounds[0] and 0 <= guard_pos[1] < bounds[1]:
 
 print("Part 1:", len(visited))
 
-t = time.time()
 cycleable = 0
 for v in visited:
     guard_pos = og_guard_pos
@@ -72,4 +71,3 @@ for v in visited:
         cycle_counter += 1
 
 print("Part 2:", cycleable)
-print("Time for part 2:", time.time()-t, "s")
